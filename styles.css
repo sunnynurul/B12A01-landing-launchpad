@@ -75,4 +75,21 @@ ul {
     color: #000000;
     font-size: 20px;
 }
+.ul-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 40px;
+}
 
+.section-three-p{
+    color: #1E1E1E;
+    width: 300px;
+}
+.avatar{
+    display: flex;
+}
+.review-img{
+    width: 100px;
+   
+}
