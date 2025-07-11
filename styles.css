@@ -93,3 +93,37 @@ ul {
     width: 100px;
    
 }
+.section-four{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 40px;
+}
+input[type="email"]{
+    width:500px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+input[type="name"]{
+    width:500px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+textarea{
+    width:500px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.section-four-h1{
+    font-size:100px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-h1{
+    color:#4E47FF;
+}
