@@ -1,0 +1,78 @@
+header{
+    background-image:url("../Assets/Hero-bg.png");
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title{
+    text-align: center;
+    color: #252432;
+    
+}
+
+.btn-primary{
+    display: block;
+    margin: auto;
+    background-color:#4E47FF;
+    max-width: 140px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.logo{
+    margin: 50px;
+    color: #4E47FF;
+    width: 99px;
+}
+
+.Sign-Up{
+    margin: 40px;
+    background-color:#4E47FF;
+    max-width: 140px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.see-in-action{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+
+.webflow-img{
+    border-radius: 30px;
+}
+
+.Launch-live-button{
+    background-color:#4E47FF;
+    max-width: 340px;
+    border-radius: 10px;
+    height: 50px;
+}
+.section-two-h3{
+    text-align: center;
+    color: #252432;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px;
+    margin: 40px;
+}
+ 
+.li-one{
+    color:#4E47FF;
+    font-size: 100px;
+}
+
+.li-one-p{
+    color: #000000;
+    font-size: 20px;
+}
+
