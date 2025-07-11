@@ -126,4 +126,14 @@ textarea{
 }
 .footer-h1{
     color:#4E47FF;
+    text-align: center;
+    font-size: 60px;
 }
+
+.footer-p{
+    text-align: center;
+}
+.footer-ul{
+    display: flex;
+}
+
