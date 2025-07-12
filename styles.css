@@ -128,30 +128,34 @@ input[type="email"]{
     width:500px;
     height: 50px;
     border-radius: 10px;
-    background-color: aliceblue;
+    background-color: white;
+    mar
 }
 input[type="name"]{
     width:500px;
     height: 50px;
     border-radius: 10px;
-    background-color: aliceblue;
+    background-color: white;
 }
 input[type="text"]{
     width:500px;
     height: 150px;
     border-radius: 10px;
-    background-color: aliceblue;
+    border-color: lightgrey
+    background-color: white;
 }
-textarea{
-    width:500px;
-    height: 200px;
-    border-radius: 10px;
-    background-color: aliceblue;
-}
+
 .section-four-h1{
     font-size:100px;
 }
+.get-in-touch-button{
+   background-color:#4E47FF;
+    width: 510px;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
 
+}
 .footer-h1{
     color:#4E47FF;
     text-align: center;
@@ -164,20 +168,15 @@ textarea{
 .footer-ul{
     display: flex;
     justify-content: space-evenly;
-    margin: 0px;
-    gap:0px;
+    
 }
 footer{
     padding: 50px;
+    background-color: white;
 }
 
 .footer-li{
   margin-left: 100px;
   margin-right: 100px;
 }
-.Launch-live-button-two{
-    background-color:#4E47FF;
-    width: 600px;
-    border-radius: 10px;
-    height: 200px;
-}
+
