@@ -11,16 +11,27 @@ header{
 .header-title{
     text-align: center;
     color: #252432;
-    
 }
 
+.Launch-live-button{
+  color:antiquewhite;
+  width: 200px;
+}
+
+.header desc{
+   margin: 20px;
+}
 .btn-primary{
     display: block;
     margin: auto;
     background-color:#4E47FF;
-    max-width: 140px;
+    width: 160px;
     border-radius: 10px;
     height: 50px;
+    color:antiquewhite;
+}
+.section-three-li-one{
+    background-color:#FFFFFF;
 }
 
 .logo{
@@ -32,15 +43,20 @@ header{
 .Sign-Up{
     margin: 40px;
     background-color:#4E47FF;
-    max-width: 140px;
+    width: 140px;
     border-radius: 10px;
     height: 50px;
+    color:antiquewhite;
 }
 
 .see-in-action{
     display: flex;
     justify-content: space-between;
     padding: 70px;
+    
+}
+.section-one-p{
+    color:#252432;
 }
 
 .webflow-img{
@@ -58,9 +74,16 @@ header{
     color: #252432;
 }
 
+.section-two{
+    background-color:#D6DDED;
+    padding: 20px;
+    margin: 65px;
+    border-radius: 20px;
+}
+
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     padding: 20px;
     margin: 40px;
@@ -68,12 +91,12 @@ ul {
  
 .li-one{
     color:#4E47FF;
-    font-size: 100px;
+    font-size: 50px;
 }
 
 .li-one-p{
-    color: #000000;
-    font-size: 20px;
+    font-size: 10px;
+    color:#252432;
 }
 .ul-two{
     display: flex;
@@ -111,6 +134,12 @@ input[type="name"]{
     border-radius: 10px;
     background-color: aliceblue;
 }
+input[type="text"]{
+    width:500px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
 textarea{
     width:500px;
     height: 200px;
@@ -120,10 +149,7 @@ textarea{
 .section-four-h1{
     font-size:100px;
 }
-.footer-div{
-    display: flex;
-    justify-content: space-between;
-}
+
 .footer-h1{
     color:#4E47FF;
     text-align: center;
@@ -135,5 +161,21 @@ textarea{
 }
 .footer-ul{
     display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    gap:0px;
+}
+footer{
+    padding: 50px;
 }
 
+.footer-li{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.Launch-live-button-two{
+    background-color:#4E47FF;
+    width: 600px;
+    border-radius: 10px;
+    height: 200px;
+}
